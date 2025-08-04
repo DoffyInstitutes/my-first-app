@@ -1,9 +1,15 @@
+import { useState } from "react";
+import Navbar from "./Navbar";
+import Home from "./1 - Home";
+
 function App() {
+
   return (
     <div className="App">
+      <Navbar />
       <div className="content">
-       <h2>My Second React Website</h2>  
-      </div> 
+        <Home />
+      </div>
     </div>
   );
 }
